@@ -1,0 +1,17 @@
+import os
+import time
+
+print("99 bottles of beer")
+num=99
+for num in range (99,1,-1):
+  print(f"{num} bottles of beer on the wall, {num} bottles of beer.")
+  time.sleep(0.01)
+  print("Take one down and pass it around,")
+  time.sleep(0.01)
+  print(f"{num} bottles of beer on the wall.")
+time.sleep(0.01)
+print("1 bottle of beer on the wall, 1 bottle of beer.")
+time.sleep(0.01)
+print("Take one down and pass it around,")
+time.sleep(0.01)
+print("1 bottle of beer on the wall.")
